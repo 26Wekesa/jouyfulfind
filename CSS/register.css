@@ -1,0 +1,23 @@
+form{
+    background-color: rgb(61, 145, 156);
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgb(129, 117, 55);
+    color: rgb(108, 49, 49);
+    background-image: url();
+}
+legend{
+    font: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 5px green;
+}
+input[type="text"],input[type="email"],input[type="date"],input[type="datetime-local"],
+input[type="tel"],select,textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}

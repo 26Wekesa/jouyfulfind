@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - page</title>
+    <link rel="stylesheet" href="CSS/register.css">
+</head>
+<body>
+
+    <form action="">
+        <legend>Sign up with JoyfulFind</legend>
+        <br><br>
+        <label for="Fullname">FullName :</label>
+        <br>
+        <input type="text" placeholder="Enter your full name" id="fullname" required>
+
+        
+        <br>
+        <label for="Username">Username :</label><br>
+        <input type="text" placeholder="Enter your Username" id="Username" required>    
+        <br>
+        
+        <br>
+        <label for="email">User imail :</label><br>
+        <input type="email" placeholder="Enter your email" id="email" required>
+        <br>
+         
+        <br>
+        <label for="pwd">User imail :</label><br>
+        <input type="password" placeholder="Type your pasword..." id="pwd" required>
+        <br></br>
+
+        <label for="YoB">BirthDay</label>
+        <input type="date" id="YoB" required>
+        <br><br>
+        <label for="dt">Date and Time</label>
+        <input type="datetime-local" id="td" required>
+
+        <br><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="e.g 0725371365" required>
+
+        <br><br>
+        <label for=" Select Nationality">Select Nationality</label>
+        <select name="" id="">        
+            <option value="" disabled>---Choose One----</option>
+            <option value="">German</option>
+            <option value="">French</option>
+            <option value="">Swiden</option>
+            <option value="">Sweesish</option>
+        </select>
+        <br><br>
+        <p>Choose your favorite team</p>
+        <input type="radio" id="Arsenal">
+        <label for="arsenal">Arsenal</label>
+        <br>
+        <input type="radio" id="Arsenal">
+        <label for="arsenal">Man United</label>
+        <br>
+        <!---checkbox--->
+        <p>Select Web programming languages </p>
+         <input type="checkbox" id="java" name="java">
+        <label for="Java">Java</label><br>
+
+         <input type="checkbox" id="java" name="java">
+        <label for="Java">Java</label><br>
+
+         <input type="checkbox" id="php" name="php">
+        <label for="php">php</label><br><br>
+
+        <!--------------->
+         
+        <label for="message">Describe yourself</label><br>
+        <textarea name="" id="message" cols="40" rows="5" placeholder="Type here....."></textarea><br><br>
+        <Button type="submit">Create an account</Button>
+    </form>
+</body>
+</html>
