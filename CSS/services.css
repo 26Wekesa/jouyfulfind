@@ -18,29 +18,39 @@ img{
     width: 150px;
 }
 #Image2{
-    background-color: goldenrod;
+    display: flex;
+    background-color: rgb(220, 201, 153);
     border-radius: 5px;
     align-content: center;
+    
 }
+#Image2 img{
+    height: 250px;
+    width: 250px;
+}
+#Image img{
+    height: 150px;
+    width: 150px;
+}
+
 #Image2:hover{
     background-color: rgb(46, 46, 172);
 }
 #suprises{
     display: flex;
-    
+    gap: 20px;
 }
 #suprises img{
-    border-radius: 4px;
-    margin-right: 10px;
+    border-radius: 20px;
+    height: 150px;
 }
+
+
 #cars{
     display: flex;
     gap: 40px;
 }
-img{
-    height: 400px;
-    width: 500px;
-}
+
 #button:hover{
     background-color: green;
 }
@@ -48,4 +58,8 @@ img{
     text-align: center;
     font-size: 40px;
     color: navy;
+}
+img{
+    height: 250px;
+    width: 250px;
 }

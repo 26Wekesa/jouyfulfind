@@ -6,7 +6,8 @@ form{
     border-radius: 60px;
     box-shadow: 0 0 10px rgb(129, 117, 55);
     color: rgb(108, 49, 49);
-    background-image: url();
+    background-image: url('images/background.jpg');
+    
 }
 legend{
     font: 40px;
@@ -20,4 +21,15 @@ input[type="tel"],select,textarea{
     height: 40px;
     border-radius: 10px;
     border: none;
+}
+button[type ="submit"]{
+    background-color: rgb(86, 134, 155);
+   display: block;
+   margin: 20px auto;
+   border-radius: 4px;
+   color: aqua;
+   box-shadow: 0 2px rgb(159, 159, 158);
+}
+button[type="submit"]:hover{
+    background-color: rgb(69, 132, 10);
 }
