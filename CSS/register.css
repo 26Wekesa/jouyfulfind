@@ -1,12 +1,15 @@
 body{
-    background-color: #9dbccb;
+   background-image: ("../images/background-for/form.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
 
 /* Form uses an image background with a dark overlay for readability.
    Place your image at `images/register-bg.jpg` (relative to the HTML file).
 */
 form{
-    background-image: url("images/background-for form.jpg");
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
