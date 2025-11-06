@@ -34,3 +34,11 @@ img{
     gap: 20px;
 
 }
+#about_us{
+    background-color: black;
+    color: aliceblue;
+}
+#about_us:hover{
+    background-color: azure;
+    color: brown;
+}
